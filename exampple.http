@@ -1,0 +1,26 @@
+###
+
+POST  http://localhost:8080/user
+Content-Type: application/json
+
+{
+    "name":"text1"
+}
+
+
+
+###
+DELETE http://localhost:8080/user?id=2951b39e-9bf1-4a45-ba13-23d7efff799c
+
+
+### 
+PUT  http://localhost:8080/user
+Content-Type: application/json
+
+{
+    "id": "2951b39e-9bf1-4a45-ba13-23d7efff799c",
+    "name" : "bat"
+}
+
+### 
+GET  http://localhost:8080/user
